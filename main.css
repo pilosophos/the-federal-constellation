@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+:root {
+  --main-bg-color: rgb(0, 8, 8);
+  --main-color: rgb(137, 190, 190);
+  --bs-body-color: var(--main-color);
+  --bs-border-color: var(--main-color);
+}
+
+body {
+  background-color: var(--main-bg-color);
+  color: var(--main-color);
+  font-family: 'Exo 2', sans-serif;
+}
+
+main > article {
+  margin-top: 1em !important;
+}
+
+p {
+  text-align: justify;
+}
+
+dfn {
+  text-decoration: underline dotted;
+  font-style: normal;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid var(--main-color);
+  border-radius: 0;
+  padding: 0;
+}
+
+.card-header {
+  background: repeating-linear-gradient(transparent, transparent 2px, rgba(137, 190, 190, .5) 3px, rgba(137, 190, 190, .5) 3px);
+  border-bottom: 1px solid;
+}
+
+.solid-scanline-bg {
+  background: repeating-linear-gradient(transparent, transparent 2px, rgba(137, 190, 190) 3px, rgba(137, 190, 190) 3px);
+}
+
+.solid-bg {
+  background-color: var(--main-bg-color);
+}
