@@ -26,6 +26,11 @@ dfn {
   font-style: normal;
 }
 
+.news>.card>.card-header>h2 {
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+
 .card {
   background-color: rgba(0, 0, 0, 0);
   border: 1px solid var(--main-color);
@@ -40,8 +45,45 @@ dfn {
 
 .solid-scanline-bg {
   background: repeating-linear-gradient(transparent, transparent 2px, rgba(137, 190, 190) 3px, rgba(137, 190, 190) 3px);
+  border-radius: 0;
 }
 
 .solid-bg {
   background-color: var(--main-bg-color);
+}
+
+.main-nav {
+  padding: 0;
+  background-color: rgba(137, 190, 190, .5);
+}
+
+.main-nav ul {
+  list-style: none;
+  background-color: var(--main-bg-color);
+  display: inline-block;
+  margin: 0 1rem;
+  padding: .1rem 0;
+  font-size: 0;
+}
+
+.main-nav ul li:first-child {
+  margin-left: .2rem;
+}
+
+.main-nav li {
+  display: inline-block;
+  text-transform: uppercase;
+  margin-right: .2rem;
+}
+
+.main-nav a {
+  background-color: rgba(137, 190, 190, .8);
+  color: var(--main-bg-color);
+  text-decoration: none;
+  padding: .2rem .5rem;
+  font-size: medium;
+}
+
+.main-nav a:hover {
+  background-color: var(--main-color);
 }
