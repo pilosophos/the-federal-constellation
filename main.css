@@ -3,6 +3,7 @@
 :root {
   --main-bg-color: rgb(0, 8, 8);
   --main-color: rgb(137, 190, 190);
+  --link-color: rgb(188, 214, 214);
   --bs-body-color: var(--main-color);
   --bs-border-color: var(--main-color);
 }
@@ -28,6 +29,11 @@ p {
 dfn {
   text-decoration: underline dotted;
   font-style: normal;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration-style: dotted;
 }
 
 input, select {
