@@ -7,13 +7,17 @@
   --bs-border-color: var(--main-color);
 }
 
+html {
+  color-scheme: dark;
+}
+
 body {
   background-color: var(--main-bg-color);
   color: var(--main-color);
   font-family: 'Exo 2', sans-serif;
 }
 
-main > article {
+main > article, main > section {
   margin-top: 1em !important;
 }
 
@@ -24,6 +28,14 @@ p {
 dfn {
   text-decoration: underline dotted;
   font-style: normal;
+}
+
+input, select {
+  background-color: rgba(137, 190, 190, .2);
+  color: var(--main-color);
+  border: 1px dotted var(--main-color);
+  padding-left: 0.5em;
+  height: 2rem;
 }
 
 .news>.card>.card-header>h2 {
@@ -86,4 +98,9 @@ dfn {
 
 .main-nav a:hover {
   background-color: var(--main-color);
+}
+
+.list-group-item {
+  background-color: var(--main-bg-color);
+  color: var(--main-color);
 }
