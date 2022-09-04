@@ -110,3 +110,7 @@ input, select {
   background-color: var(--main-bg-color);
   color: var(--main-color);
 }
+
+.w-min-content {
+  width: min-content !important;
+}
