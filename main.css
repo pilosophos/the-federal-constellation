@@ -29,6 +29,7 @@ p {
 dfn {
   text-decoration: underline dotted;
   font-style: normal;
+  cursor: help;
 }
 
 a {
