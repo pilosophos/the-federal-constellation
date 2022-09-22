@@ -113,6 +113,7 @@ function updateUnitDisplay(convertFunc, inputValueID, unitMagnitudeID) {
 
 for (const unit in CONSTELLATION_UNITS) {
   let {inputValueID, unitMagnitudeID, convertFunc} = CONSTELLATION_UNITS[unit];
+  document.getElementById(inputValueID).value = 1;
   document.getElementById(inputValueID).addEventListener("input", () => updateUnitDisplay(convertFunc, inputValueID, unitMagnitudeID));
   document.getElementById(unitMagnitudeID).addEventListener("input", () => updateUnitDisplay(convertFunc, inputValueID, unitMagnitudeID));
 
