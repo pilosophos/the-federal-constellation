@@ -61,19 +61,13 @@
                 <td class="col-3">
                   <input type="numeric" id="chrons" value="1" aria-labelledby="chronMagnitude">
                     <select name="chronMagnitude" id="chronMagnitude" aria-label="Constellar Unit time unit">
-                      <option value="-3">millichron</option>
-                      <option value="-2">centichron</option>
-                      <option value="-1">decichron</option>
                       <option value="0" selected>chron</option>
-                      <option value="1">decachron</option>
-                      <option value="2">hectachron</option>
-                      <option value="3">kilochron</option>
-                      <option value="4">myriochron</option>
-                      <option value="6">megachron</option>
                     </select>
                 </td>
                 <td class="col-3">
                   <ol class="list-group list-group-flush">
+                    <li class="list-group-item">= <span id="nanoseconds"></span> nanoseconds</li>
+                    <li class="list-group-item">= <span id="milliseconds"></span> milliseconds</li>
                     <li class="list-group-item">= <span id="seconds"></span> seconds</li>
                     <li class="list-group-item">= <span id="minutes"></span> minutes</li>
                     <li class="list-group-item">= <span id="hours"></span> hours</li>
@@ -88,6 +82,40 @@
         </main>
       </div>
     </section>
+
+    <section class="row">
+      <div class="card">
+        <h2 class="card-header h5">Length (tetra)</h2>
+        <main class="card-body">
+          <p>The basic unit of length is the tetra (approximately 3.26 cm), defined as the distance travelled by light in a vacuum in 1/12<sup>12</sup> chrons.</p>
+
+          <table class="table table-responsive">
+            <thead>
+              <tr><td>Constellar Units</td><td>SI Metric</td></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="col-3">
+                  <input type="numeric" id="tetras" value="1" aria-labelledby="tetraMagnitude">
+                    <select name="tetraMagnitude" id="tetraMagnitude" aria-label="Constellar Unit length unit">
+                      <option value="0" selected>tetra</option>
+                    </select>
+                </td>
+                <td class="col-3">
+                  <ol class="list-group list-group-flush">
+                    <li class="list-group-item">= <span id="nanometres"></span> nanometres</li>
+                    <li class="list-group-item">= <span id="millimetres"></span> millimetres</li>
+                    <li class="list-group-item">= <span id="centimetres"></span> centimetres</li>
+                    <li class="list-group-item">= <span id="metres"></span> metres</li>
+                    <li class="list-group-item">= <span id="kilometres"></span> kilometres</li>
+                    <li class="list-group-item">= <span id="lightyears"></span> light years</li>
+                  </ol>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </main>
+      </div>
   </main>
 
 <script src="units.js" type="module"></script>
