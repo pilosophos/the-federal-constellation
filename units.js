@@ -54,6 +54,7 @@ const SI_PREFIXES = {
   "tera":   12,
   "giga":   9,
   "mega":   6,
+  "myrio":  4,
   "kilo":   3,
   "hecto":  2,
   "deca":   1,
