@@ -10827,13 +10827,16 @@ textarea.form-control-lg {
 }
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
+  .w-lg-auto, .system-tree {
+    width: auto !important;
+  }
   .w-lg-100 {
     width: 100% !important;
   }
   .w-lg-75 {
     width: 75% !important;
   }
-  .w-lg-50, .system-tree {
+  .w-lg-50 {
     width: 50% !important;
   }
   .w-lg-25 {

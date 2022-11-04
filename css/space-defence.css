@@ -10827,6 +10827,9 @@ textarea.form-control-lg {
 }
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
+  .w-lg-auto {
+    width: auto !important;
+  }
   .w-lg-100 {
     width: 100% !important;
   }
