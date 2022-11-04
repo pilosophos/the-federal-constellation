@@ -1,0 +1,12 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "sizing.scss";
+
+.system-tree {
+    @extend .border-end;
+    @extend .float-lg-end;
+    @extend .p-lg-3;
+    @extend .m-3;
+    @extend .mt-0;
+    @extend .w-100;
+    @extend .w-lg-50;
+}

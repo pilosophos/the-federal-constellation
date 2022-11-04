@@ -1,0 +1,38 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "sizing.scss";
+
+.news {
+    @extend .row;
+}
+
+.news > .card > .card-header > h2 {
+    font-size: 1.5em;
+    margin-bottom: 0;
+}
+
+.summary {
+    @extend .float-lg-end;
+
+    @extend .m-0;
+    @extend .m-xl-3;
+
+    @extend .mt-0;
+    @extend .mt-lg-0;
+
+    @extend .w-lg-25;
+}
+
+.summary > h3 {
+    @extend .lead;
+    @extend .border-bottom;
+}
+
+.news figure {
+    @extend .d-flex;
+    @extend .flex-column;
+    @extend .mx-auto;
+    @extend .mb-3;
+    @extend .float-lg-end;
+    @extend .mx-lg-3;
+    @extend .w-min-content;
+}

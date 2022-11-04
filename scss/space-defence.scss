@@ -1,0 +1,18 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "sizing.scss";
+
+.infobox {
+    @extend .float-lg-end;
+
+    @extend .p-3;
+
+    @extend .pt-0;
+
+    @extend .m-0;
+    @extend .m-xl-3;
+
+    @extend .mt-0;
+    @extend .mt-xl-0;
+
+    @extend .w-lg-25;
+}
