@@ -1,0 +1,15 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "sizing.scss";
+
+.wiki-topsection {
+    @extend .row;
+}
+
+.wiki-topsection section {
+    @extend .mt-0;
+    @extend .mb-4;
+}
+
+.wiki-topsection section:last-child {
+    @extend .mb-0;
+}
