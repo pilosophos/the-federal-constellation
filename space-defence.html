@@ -62,8 +62,8 @@
             <dt>Command and control craft</dt>
             <dd><p>Command and control craft coordinate fleet movements and calculate weapon volleys. They are outfitted with a variety of sensors, as well as a compute cluster to analyze data from onboard instruments and from ships in its command. They host communications arrays and often comm-repeater probes to extend the range of their communications.</p></dd>
 
-            <dt>Fleet tender ship</dt>
-            <dd><p>Fleet tender ships allow other ships to dock with it to perform repairs and refuel in the field. They are equippable with modular cargo bays to store fuel and parts. They are important in deep-space combat where the nearest spacedock is far away. Tenders are distinguished from spacedocks by their ease of mobility, and do not build new ships.</p></dd>
+            <dt>Recovery ship</dt>
+            <dd><p>Recovery ships allow other ships to dock with it to perform repairs and refuel in the field. They are equippable with modular cargo bays to store fuel and parts. They are important in deep-space combat where the nearest spacedock is far away. Tenders are distinguished from spacedocks by their ease of mobility, and do not build new ships.</p></dd>
 
             <dt>Hospital ship</dt>
             <dd><p>Hospital ships are mobile field hospitals. They are important in humanitarian missions, or if many ships are expected to operate away from a hospital for extended periods of time.</p></dd>
@@ -85,7 +85,54 @@
       <div class="card">
         <h2 class="card-header h5">Munitions</h2>
         <main class="card-body">
-          <section class="mt-0">
+
+          <section class="mt-0 clearfix">
+            <h3>Multi-role Plasma Drive (MPD)</h3>
+            <aside class="infobox">
+              <h3 class="lead text-center">Multi-role Plasma Drive (MPD)</h3>
+              <table class="table">
+                <tbody>
+                  <tr><td class="fw-bold">Type</td><td>Plasma drive</td></tr>
+                  <tr><td class="fw-bold">Use</td><td>3 mutually exclusive roles: Superluminal drive, Interdictor, Shield/Weapon</td></tr>
+                  <tr><td class="fw-bold">Pros</td><td>
+                    <ul>
+                      <li>Suited for many roles</li>
+                      <li>Weapons fire doesn't require lowering shields</li>
+                    </ul>
+                  </td></tr>
+                  <tr><td class="fw-bold">Cons</td><td>
+                    <ul>
+                      <li>Must leave FTL to use as interdictor or shield/weapon</li>
+                      <li>Must be provided with continuous power</li>
+                    </ul>
+                  </td></tr>
+                </tbody>
+              </table>
+            </aside>
+            <h4>Mechanism</h4>
+            <p>The MPD contains a plasma generation system which vents plasma that can be manipulated by an array of electomagnets along the ship's hull into various geometries. This creates an electromagnetic shell around the plasma whose shape is calculated and controlled by an onboard computer.</p>
+            
+            <p>A strange matter cyclotron is <strong>only</strong> involved when the MPD is actively used as a superluminal drive or interdictor, which injects strange matter into the plasma to satisfy the negative energy requirement for warping spacetime. The strange matter decays too quickly to be meaningful in battle, and continuous strange matter generation is too resource-intensive to be sustained.</p>
+
+            <h4>Usage</h4>
+            <h5 class="h6 fw-bold">As a shield/weapon</h5>
+            <p>For the shield/weapon role, the ship leaves superluminal speed and the strange matter cyclotron is switched off to give more power to the plasma generator and electromagnets. The electromagnetic field by confines incoming plasma projectiles within the EM shell, thereby acting as a shield. For kinetic projectiles, the plasma contained in the EM shell is hot enough to melt or vaporize most materials. The electromagnets can also eject an EM shell which contains plasma, to send projectiles outward as a weapon.</p>
+
+            <h5 class="h6 fw-bold">As a superluminal drive</h5>
+            <p>For the superluminal drive role, the strange matter cyclotron is switched on, which satisfies the negative energy requirement for warping spacetime. The result is a plasma geometry that contracts spacetime in front of the ship and expands spacetime behind it, moving the space between the warped regions at superluminal speeds. The most common plasma geometry for this is the <a href="news.html#7">soliton formation</a> which generates self-propagating soliton waves.</p>
+
+            <h5 class="h6 fw-bold">As an interdictor</h5>
+            <p>The interdictor operates by bending space in the opposite direction to another ship which is attempting to escape. Since the two spacetime bends are of opposite phase, they cancel out <span class="text-secondary">(like noise canceling headphones)</span> and create a locally flat spacetime. Since this role involves bending space, the strange matter cyclotron is needed for this role.</p>
+
+            <h4>Limitations</h4>
+            <p>The superluminal drive, interdictor, and shield/weapon are mutually exclusive because the differing plasma geometries required for each role are incompatible. However, switching between these three roles can happen at will, so for battle the standard operating procedure is to travel to the target at superluminal speed, slow the target using the interdictor, then engage the target at subliminal speeds. Another limiting factor is that each component requires continuous power to be effective. Even the plasma needs to be regenerated, since it radiates its energy in the form of heat and light.</p>
+            
+            <h4>Variants</h4>
+            <p>An MPD without a strange matter cyclotron is known as a Fewer-role Plasma Drive (FPD) and cannot be used as a sueprluminal drive or interdictor. Multiple FPD units sometimes share an electromagnet array with the main MPD in order to provide extra firepower or defence in the shield/weapon role. Subluminal ships and stations also make use of FPDs, since the cyclotron is not necessary for subluminal travel.</p>
+          </section>
+          <hr>
+
+          <section class="clearfix">
             <h3>Laser array friction system (LAFS)</h3>
             <aside class="infobox">
               <h3 class="lead text-center">Laser array friction system</h3>
@@ -118,38 +165,6 @@
             <p>Each laser burst requires a significant amount of electrical energy to fire. Normally, high-voltage capacitors are used to build up this energy, and rate-of-fire depends on the recharge rate of these capacitors. Most military spacecraft with appreciable armor plating are not greatly affected by a single burst, making the LAFS a primarily defensive weapon against energy projectiles.</p>
           </section>
           <hr>
-          <section id="pie">
-            <h3>Phase-inverse engine (PIE)</h3>
-            <aside class="infobox">
-              <h3 class="lead text-center">Phase-inverse engine</h3>
-              <table class="table">
-                <tbody>
-                  <tr><td class="fw-bold">Type</td><td>Warp interdictor</td></tr>
-                  <tr><td class="fw-bold">Use</td><td>Interdictor, superluminal drive</td></tr>
-                  <tr><td class="fw-bold">Pros</td><td>
-                    <ul>
-                      <li>Cheap construction given existing superluminal drive</li>
-                      <li>Good close-range response time and accuracy</li>
-                    </ul>
-                  </td></tr>
-                  <tr><td class="fw-bold">Cons</td><td>
-                    <ul>
-                      <li>Energy intensive</li>
-                      <li>Poor long-range response time and accuracy</li>
-                    </ul>
-                  </td></tr>
-                </tbody>
-              </table>
-            </aside>
-            <h4>Mechanism</h4>
-            <p>PIEs are interdiction devices consisting of a low-latency gravity sensor and superluminal drive combination. The gravity sensor detects any change in the warping of spacetime and warps space in the opposite direction and magnitude, similar to the inverted-phase sound waves from noise cancelling headphones. This cancels spacetime warping required to travel at superluminal speeds. An onboard computer calculates the spacetime warping the PIE must produce in order to produce the cancelling effect.</p>
-
-            <h4>Usage</h4>
-            <p>Many PIEs are usually placed in formation for full coverage over an area. Though PIEs are primarily used for interdiction, since they are simply a gravity sensor connected to a superluminal drive, a PIE is often usable as a regular superluminal drive as well.</p>
-
-            <h4>Limitations</h4>
-            <p>Warping spacetime is an energy-intensive operation, and requires negative energy to cancel the amount of spacetime warping required for superluminal travel. A superluminal drive also has a limited range where it can quickly manipulate warp geometry, so at long range it must propagate gravitational waves from the origin which is computationally expensive. The complexity of the warped geometry also affects computation time, and a trade off must be made between accuracy and response time.</p>
-          </section>
         </main>
       </div>
     </section>
