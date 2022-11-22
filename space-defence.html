@@ -54,7 +54,7 @@
             <dd><p>Heavy weapons craft are extremely large spacecraft outfitted with a variety of weapon types. HWCs that permanently defend a stationary target are known as weapon platforms. HWC ships are typically employed in symmetric encounters with large engagements.</p></dd>
 
             <dt>Light weapons craft (LWC)</dt>
-            <dd><p>Light weapons craft are small, maneuverable combat craft used for asymmetric search-and-destroy tasks. They are commonly seen in anti-piracy and anti-guerilla engagements.</p></dd>
+            <dd><p>Light weapons craft are small, manoeuvrable combat craft used for asymmetric search-and-destroy tasks. They are commonly seen in anti-piracy and anti-guerrilla engagements. They are the most common type of weapons craft in the Constellation.</p></dd>
 
             <dt>Shuttle</dt>
             <dd><p>Shuttles are small, subluminal ships which transport small groups or individuals to and from planetary atmospheres. Superluminal shuttles are rarely seen, as warp drives are expensive and maintaining warp geometry is energy intensive.</p></dd>
@@ -69,12 +69,20 @@
             <dd><p>Hospital ships are mobile field hospitals. They are important in humanitarian missions, or if many ships are expected to operate away from a hospital for extended periods of time.</p></dd>
 
             <dt>Engine ship</dt>
-            <dd><p>Formations of multiple engine ships are often used to create a large warp bubble around subluminal ships to transport them at superluminal speeds en masse. Each engine ship projects one part of the warp geometry at the same time as all the other engine ships, so transporting large areas requires more engine ships. A few engine ships are usually held in reserve in case a primary engine ship fails.</p></dd>
+            <dd>
+              <p>Formations of multiple engine ships are often used to create a large warp bubble around ships to transport them at superluminal speeds en masse. Each engine ship projects one part of the warp geometry at the same time as all the other engine ships, so transporting large areas requires more engine ships.</p>
+              <p>Although Constellation superluminal drives are <a href="#mpd">also usable as weapons</a>, engine ships differ from weapons craft in that it is specialized to carry an extremely large amount of fuel.</p>
+              <p>Engine ships are especially economical when transporting large fleets, since each ship activating their superluminal drives individually (if they have one at all) would require more resources. A few engine ships are usually held in reserve in case a primary engine ship fails. Engine ships can <a href="#mpd">also be used as interdictors</a> by warping spacetime in the opposite phase to the target, but not all interdictors are designed to be engine ships.</p>
+            </dd>
 
             <dt>Interdictor</dt>
             <dd>
-              <p>Interdictors are any spacecraft that prevent other ships from traveling at superluminal speeds. They are mainly used for protecting solar systems from warping spacetime, which would upset the motion of objects due to gravitational forces. They are also used in chase scenarios, to slow down and apprehend targets. Multi-interdictor formations are common to extend the range of interdiction.</p>
-              <p>Most interdictors are also engine ships because their method of interdiction involves an upgraded superluminal drive (namely the <a href="#pie">phase-inverse engine</a>).</p>
+              <p>Interdictors are any spacecraft that prevent other ships from travelling at superluminal speeds. They are mainly used for protecting solar systems from warping spacetime, which would upset the motion of objects due to gravitational forces. They are also used in chase scenarios, to slow down and apprehend targets. Multi-interdictor formations are common to extend the range or effectiveness of interdiction.</p>
+            </dd>
+
+            <dt>Communications craft</dt>
+            <dd>
+              <p>Communications craft are used to repeat and route superluminal communications to extend the effective communication range. These can be either mobile or stationary. Stationary communications craft are usually a part of some permanent infrastructure like the Constellation Internetwork, whereas mobile communications craft are used in deep space either to maintain a connection with the nearest base or to create an isolated ad-hoc network.</p> 
             </dd>
           </dl>
         </main>
@@ -86,7 +94,7 @@
         <h2 class="card-header h5">Munitions</h2>
         <main class="card-body">
 
-          <section class="mt-0 clearfix">
+          <section class="mt-0 clearfix" id="mpd">
             <h3>Multi-role Plasma Drive (MPD)</h3>
             <aside class="infobox">
               <h3 class="lead text-center">Multi-role Plasma Drive (MPD)</h3>
@@ -110,7 +118,7 @@
               </table>
             </aside>
             <h4>Mechanism</h4>
-            <p>The MPD contains a plasma generation system which vents plasma that can be manipulated by an array of electomagnets along the ship's hull into various geometries. This creates an electromagnetic shell around the plasma whose shape is calculated and controlled by an onboard computer.</p>
+            <p>The MPD contains a plasma generation system which vents plasma that can be manipulated by an array of electromagnets along the ship's hull into various geometries. This creates an electromagnetic shell around the plasma whose shape is calculated and controlled by an onboard computer.</p>
             
             <p>A strange matter cyclotron is <strong>only</strong> involved when the MPD is actively used as a superluminal drive or interdictor, which injects strange matter into the plasma to satisfy the negative energy requirement for warping spacetime. The strange matter decays too quickly to be meaningful in battle, and continuous strange matter generation is too resource-intensive to be sustained.</p>
 
@@ -122,7 +130,7 @@
             <p>For the superluminal drive role, the strange matter cyclotron is switched on, which satisfies the negative energy requirement for warping spacetime. The result is a plasma geometry that contracts spacetime in front of the ship and expands spacetime behind it, moving the space between the warped regions at superluminal speeds. The most common plasma geometry for this is the <a href="news.html#7">soliton formation</a> which generates self-propagating soliton waves.</p>
 
             <h5 class="h6 fw-bold">As an interdictor</h5>
-            <p>The interdictor operates by bending space in the opposite direction to another ship which is attempting to escape. Since the two spacetime bends are of opposite phase, they cancel out <span class="text-secondary">(like noise canceling headphones)</span> and create a locally flat spacetime. Since this role involves bending space, the strange matter cyclotron is needed for this role.</p>
+            <p>The interdictor operates by bending space in the opposite direction to another ship which is attempting to escape. Since the two spacetime bends are of opposite phase, they cancel out <span class="text-secondary">(like noise cancelling headphones)</span> and create a locally flat spacetime. Since this role involves bending space, the strange matter cyclotron is needed for this role.</p>
 
             <h4>Limitations</h4>
             <p>The superluminal drive, interdictor, and shield/weapon are mutually exclusive because the differing plasma geometries required for each role are incompatible. However, switching between these three roles can happen at will, so for battle the standard operating procedure is to travel to the target at superluminal speed, slow the target using the interdictor, then engage the target at subliminal speeds. Another limiting factor is that each component requires continuous power to be effective. Even the plasma needs to be regenerated, since it radiates its energy in the form of heat and light.</p>
@@ -162,7 +170,7 @@
             <p>Used to scatter electromagnetic energy in all directions, such as charged plasmas from weapons systems and warp drives. The scattering is useful in defending against weapons using electromagnetic fields to concentrate energy on a target. Scattering is also useful as a superluminal travel interdiction mechanism. Since Constellation warp drives operate by concentrating energy density in charged plasmas that are shaped through magnetic fields, the magnetic fields generated by the LAFS interferes with the magnetic energy "shell" which holds the charged plasma together, preventing the energy densities required to warp spacetime.</p>
 
             <h4>Limitations</h4>
-            <p>Each laser burst requires a significant amount of electrical energy to fire. Normally, high-voltage capacitors are used to build up this energy, and rate-of-fire depends on the recharge rate of these capacitors. Most military spacecraft with appreciable armor plating are not greatly affected by a single burst, making the LAFS a primarily defensive weapon against energy projectiles.</p>
+            <p>Each laser burst requires a significant amount of electrical energy to fire. Normally, high-voltage capacitors are used to build up this energy, and rate-of-fire depends on the recharge rate of these capacitors. Most military spacecraft with appreciable armour plating are not greatly affected by a single burst, making the LAFS a primarily defensive weapon against energy projectiles.</p>
           </section>
           <hr>
         </main>
