@@ -479,7 +479,7 @@ progress {
   display: none !important;
 }
 
-.lead, .summary > h3, .summary > .h3 {
+.lead, .summary > h3 {
   font-size: 1.25rem;
   font-weight: 300;
 }
@@ -7108,7 +7108,7 @@ textarea.form-control-lg {
   border-right: 0 !important;
 }
 
-.border-bottom, .summary > h3, .summary > .h3 {
+.border-bottom, .summary > h3 {
   border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
 }
 
@@ -9241,7 +9241,7 @@ textarea.form-control-lg {
   .float-lg-start {
     float: left !important;
   }
-  .float-lg-end, .news figure, .summary {
+  .float-lg-end, .summary, .news figure {
     float: right !important;
   }
   .float-lg-none {
@@ -10886,7 +10886,7 @@ textarea.form-control-lg {
   width: min-content !important;
 }
 
-.news > .card > .card-header > h2, .news > .card > .card-header > .h2 {
+.news > .card > .card-header > h2 {
   font-size: 1.5em;
   margin-bottom: 0;
 }

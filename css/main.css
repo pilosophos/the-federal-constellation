@@ -1,12 +1,11 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
 /*!
  * Bootstrap  v5.2.2 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import "sizing.css";
-@import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -10773,6 +10772,121 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  .w-sm-100 {
+    width: 100% !important;
+  }
+  .w-sm-75 {
+    width: 75% !important;
+  }
+  .w-sm-50 {
+    width: 50% !important;
+  }
+  .w-sm-25 {
+    width: 25% !important;
+  }
+  .h-sm-100 {
+    height: 100% !important;
+  }
+  .h-sm-75 {
+    height: 75% !important;
+  }
+  .h-sm-50 {
+    height: 50% !important;
+  }
+  .h-sm-25 {
+    height: 25% !important;
+  }
+}
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .w-md-100 {
+    width: 100% !important;
+  }
+  .w-md-75 {
+    width: 75% !important;
+  }
+  .w-md-50 {
+    width: 50% !important;
+  }
+  .w-md-25 {
+    width: 25% !important;
+  }
+  .h-md-100 {
+    height: 100% !important;
+  }
+  .h-md-75 {
+    height: 75% !important;
+  }
+  .h-md-50 {
+    height: 50% !important;
+  }
+  .h-md-25 {
+    height: 25% !important;
+  }
+}
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  .w-lg-auto {
+    width: auto !important;
+  }
+  .w-lg-100 {
+    width: 100% !important;
+  }
+  .w-lg-75 {
+    width: 75% !important;
+  }
+  .w-lg-50 {
+    width: 50% !important;
+  }
+  .w-lg-25 {
+    width: 25% !important;
+  }
+  .h-lg-100 {
+    height: 100% !important;
+  }
+  .h-lg-75 {
+    height: 75% !important;
+  }
+  .h-lg-50 {
+    height: 50% !important;
+  }
+  .h-lg-25 {
+    height: 25% !important;
+  }
+}
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  .w-xl-100 {
+    width: 100% !important;
+  }
+  .w-xl-75 {
+    width: 75% !important;
+  }
+  .w-xl-50 {
+    width: 50% !important;
+  }
+  .w-xl-25 {
+    width: 25% !important;
+  }
+  .h-xl-100 {
+    height: 100% !important;
+  }
+  .h-xl-75 {
+    height: 75% !important;
+  }
+  .h-xl-50 {
+    height: 50% !important;
+  }
+  .h-xl-25 {
+    height: 25% !important;
+  }
+}
+.w-min-content {
+  width: min-content !important;
+}
+
 :root {
   --main-bg-color: rgb(0, 8, 8);
   --main-color: rgb(137, 190, 190);
@@ -10795,11 +10909,11 @@ main > article, main > section {
   margin-top: 1em !important;
 }
 
-h3, .h3 {
+h3 {
   font-size: 1.5rem;
 }
 
-h4, .h4 {
+h4 {
   font-size: 1.25rem;
 }
 
